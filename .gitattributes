@@ -4,6 +4,10 @@
 # Custom for Visual Studio
 *.cs     diff=csharp
 
+# Use a custom driver to diff merge LabVIEW files
+*.vi merge=labview diff=labview
+
+
 # Standard to msysgit
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
